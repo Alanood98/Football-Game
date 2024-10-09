@@ -13,9 +13,9 @@ namespace FootballGame
 
 
 
-        public  Team() 
+        public  Team(string teamName) 
         {
-        
+            TeamName = teamName;
         }
 
     }

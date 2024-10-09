@@ -8,7 +8,15 @@ namespace FootballGame
 {
     public class Team
     {
+        public string TeamName;
+        public List<Players> TeamNames = new List<Players>();
 
+
+
+        public  Team() 
+        {
+        
+        }
 
     }
 }

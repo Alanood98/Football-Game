@@ -32,7 +32,15 @@ namespace FootballGame
             return names[randomIndex];
         }
 
-        
+        // Method to generate a random player position
+        private string GenerateRandomPosition()
+        {
+            // Generate a random index from the positions array
+            int randomIndex = random.Next(0, positions.Length);
+            return positions[randomIndex];
+        }
+
+
 
         public void DisplayInfo()
         {

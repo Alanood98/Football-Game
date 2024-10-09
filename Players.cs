@@ -19,7 +19,12 @@ namespace FootballGame
             PlayerPosition=playerPosition;
             SkillesLevel=skillesLevel;
         }
+        private static Random random = new Random();
+        private static string[] names = { "Tom", "Jerry", "Chris", "Mike", "John", "Alex", "Max", "Leo", "Sam", "Ryan", "Ethan" };
+        private static string[] positions = { "Forward", "Midfielder", "Defender", "Goalkeeper" };
+        
 
+        
         public void DisplayInfo()
         {
             Console.WriteLine($"player name :{PlayerName},player position:{PlayerPosition},skill:{SkillesLevel}");

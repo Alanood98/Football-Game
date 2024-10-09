@@ -41,6 +41,14 @@ namespace FootballGame
         }
 
 
+        // Method to generate a random skill level (1 to 100)
+        private int GenerateRandomSkillLevel()
+        {
+            // Generate a random skill level between 1 and 100
+            return random.Next(1, 101);
+        }
+
+
 
         public void DisplayInfo()
         {
